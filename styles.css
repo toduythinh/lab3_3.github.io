@@ -1,0 +1,236 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f9f9f9;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box ul li, .box p {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.box ul li:last-child, .box p:last-child {
+    border-bottom: none;
+}
+
+/* Reviews Section */
+.review-title {
+    margin-top: 40px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.review-box {
+    width: 30%;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviewer {
+    color: gray;
+    font-size: 0.9em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-box {
+        width: 90%;
+    }
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f9f9f9;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box ul li, .box p {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.box ul li:last-child, .box p:last-child {
+    border-bottom: none;
+}
+
+/* Reviews Section */
+.review-title {
+    margin-top: 40px;
+    width: 100%; /* Đảm bảo luôn nằm trên một dòng riêng */
+    text-align: center; /* Căn giữa */
+    font-size: 24px; /* Tăng kích thước */
+    font-weight: bold;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.review-box {
+    width: 30%;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviewer {
+    color: gray;
+    font-size: 0.9em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-box {
+        width: 90%;
+    }
+}
