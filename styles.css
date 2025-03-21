@@ -61,7 +61,6 @@ nav a {
     border-bottom: none;
 }
 
-/* Reviews Section */
 .review-title {
     margin-top: 40px;
 }
@@ -86,7 +85,6 @@ nav a {
     font-size: 0.9em;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
@@ -95,7 +93,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .grid {
         flex-direction: column;
@@ -177,12 +174,11 @@ nav a {
     border-bottom: none;
 }
 
-/* Reviews Section */
 .review-title {
     margin-top: 40px;
-    width: 100%; /* Đảm bảo luôn nằm trên một dòng riêng */
-    text-align: center; /* Căn giữa */
-    font-size: 24px; /* Tăng kích thước */
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -206,7 +202,6 @@ nav a {
     font-size: 0.9em;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
@@ -215,7 +210,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .grid {
         flex-direction: column;
